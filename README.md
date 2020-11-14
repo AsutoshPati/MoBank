@@ -6,9 +6,11 @@ Download the project and Goto the <b>MoBank</b> folder --> double click on <b>Mo
 ----------------------------
 ## How to Use
 
-### Types of users
-There are 3 different types of users presnt in MoBank Program. They are Admin, Employee and Account Holder.
-Actions | Account Holder | Employee | Admin
+### Types of Users
+There are 3 different types of users presnt in MoBank Program. They are Admin, Employee and Customer.
+When a new user is created; they are created as Customer. Only an admin change the role of an user.
+
+Actions | Customer | Employee | Admin
 | :--- | :---: | :---: | :---:
 Check and modify own profile | ✔ | ✔ | ✔
 Check account details  | ✔ | ✔ | ✔
@@ -20,10 +22,9 @@ Manage user permission |  |  | ✔
 All transaction status |  |  | ✔
 Search all users |  |  | ✔
 
-- Account Holder :
-      Account Holder can only check and modify their profile details, check account details and transactions, and can use services like money transfer and withdrawl.
-      When a new user is created; they are created as Account Holder.
-- Employee
-  
-  
-
+### Default Users
+User Name | Phone Number | Password | Role
+| :--- | :---: | :---: | :---:
+Test Admin | 9999999999 | Admin@123 | Admin
+Test Employee | 9999999998 | Employee@123 | Employee
+Test Holder | 9999999997 | Holder@123 | Customer
